@@ -1,6 +1,6 @@
 # Subscriber Heatmap Based Hex Boosting
 
-- Author(s): [afisherdev](https://github.com/afisherdev), [EasyNiko](https://github.com/EasyNiko) & [meta-light](https://github.com/meta-light) 
+- Author(s): [afisherdev](https://github.com/afisherdev), [EasyNiko](https://github.com/EasyNiko) 
 - Start Date: 2024-01-17
 - Category: Technical, Economic
 - Original HIP PR: <!-- leave this empty; maintainer will fill in ID of this pull request -->
