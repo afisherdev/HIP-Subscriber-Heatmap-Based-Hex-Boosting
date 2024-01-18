@@ -14,18 +14,15 @@ One paragraph explanation of the proposal.
 <!-- Read the content requests in all sections before starting to write any section. -->
 
 ## Motivation
-
-- Why are we doing this?
-- What use cases does it support?
-- What problems does it solve?
-- What is the expected outcome?
+The Helium community has been involved in an ongoing discourse surrounding HIP 101 and 103, which generally aim to disincentivize deployments that aim to abuse the Helium Mobile subDAO Proof-of-Coverage oracle system. Our implementation aims to solve this through a PoC boosting system based on Helium Mobile subscriber distribution derived from Nova Labs Discovery Mapping heatmap data in order to properly incentivise deployers and operators of CBRS and WiFi hotspots to supply coverage in areas with concentrations of active subscribers. We expect this will result in higher quality coverage while disincentivisng gaming on the Mobile network. 
 
 ## Stakeholders
+This proposal affects 2 groups of stakeholders:
+- **End Users & Subscribers** will benefit from an increase of usable coverage in high-demand areas. 
+- **CBRS & WiFi Deployers** will be met with additional disincentives for attempting to game Proof-of-Coverage oracles through ineffective deployments while good-faith actors will be met with additional economic incentives. 
 
-- Who is affected by this HIP? A stakeholder is any individual, group, or party such as network
-  users, Hotspot hosts, or token holders.
-- How are we soliciting feedback on this HIP from these stakeholders? Note that they may not be
-  watching the HIP repository or even directly active in the Helium Community chat channels.
+We hope to circulate this HIP and additional rationale within the Helium Discord server. 
+
 
 ## Detailed Explanation
 
@@ -36,8 +33,7 @@ One paragraph explanation of the proposal.
 
 ## Drawbacks
 
-- Why should we _not_ do this?
-- What problems could occur if we do this?
+We presume a moderately high level of complexity involved in accurately determining active subscriber metrics on an ongoing basis and communicating this data to rewards oracles. 
 
 ## Rationale and Alternatives
 
@@ -67,14 +63,17 @@ this project.
 - Is this backwards compatible? Can this HIP be undone?
   - If not, what is the procedure to migrate?
 
+- Current Helium Mobile subscribers should notice a gradual increase in coverage in places where there is a demand for Helium Mobile Hotspots
+- Existing PoC and Rewards documentation will need to be revised to include a detailed description of the system functionality, along with the modeled coverage explorer. (is this NOVA?)
+- This HIP can easily be nullified via a future stakeholder vote if success metrics prove an ineffective implimentation. 
+
 ## Success Metrics
 
 What metrics can be used to measure the success of this design? Are any new ETL reports needed to
 measure the success?
-
 - What should we measure to prove a performance increase?
 - What should we measure to prove an improvement in stability?
 - What should we measure to prove a reduction in complexity?
 - What should we measure to prove an acceptance of this by its users?
 
-Successful implementation of this HIP will result in a greater amount of Helium Mobile cellular traffic being utilized on Helium CBRS and WiFi hotspots while reducing incentives to deploy ineffective coverage in areas with few or no current subscribers. 
+Successful implementation of this HIP will result in a greater amount of Helium Mobile cellular traffic being utilized on Helium CBRS and WiFi hotspots while reducing incentives to deploy ineffective coverage in areas with few or no current subscribers. These metrics are easily detemined by measuing the percentage of Helium Mobile cellular traffic being served by Helium radios as opposed to T-Mobile backhaul. Additionally, a successful implementation of this proposal should result in a reduction of radios providing coverage in areas with no current subscribers. 
