@@ -8,6 +8,8 @@
 - Vote Requirements: veMOBILE
 
 ## Summary
+This Helium Improvement Proposal (HIP) is designed to fix issues around Proof-of-Coverage gaming based on geography and use case, and introduces a new mechanism to reward Helium Mobile coverage based on subscriber density and network usage.
+
 <!-- One paragraph explanation of the proposal. -->
 <!-- Read the content requests in all sections before starting to write any section. -->
 
