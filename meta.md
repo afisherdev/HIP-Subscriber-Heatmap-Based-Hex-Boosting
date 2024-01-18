@@ -31,10 +31,16 @@ We hope to circulate this HIP and additional rationale within the Helium Discord
 - Provide representative examples that show how this proposal would be commonly used.
 - Corner cases should be dissected by example.
 -->
-- 1.1x, 1.2x, 1.3x etc boosts for areas with active subscribers (per capita, per 100k people etc)
-- updates monthly? bi-monthly?
-- disincentives deployments in middle of nowhere, incentives people to onboard subscribers to achieve boost
-- Based on larger res4-6 hexes
+
+We propose a system implimentation leveraging resolution 5 [Uber H3](https://www.uber.com/blog/h3/) hexes (About 252.9 km^2) cross-referenced against publically available population data per hex, updated on a bi-monthly basis to determine the boost multuplier. Ideally this design includes a 2 month buffer for deployers to make nessicery adjustments
+
+| Subscribers per 100k People | PoC Boost |
+| ----------- | ----------- |
+| 1-5 | 1.1x |
+| 6-25 | 1.2x |
+| 26-100 | 1.3x |
+| 101-500 | 1.4x |
+| 501+ | 1.5x |
 
 ## Drawbacks
 We presume a moderately high level of complexity involved in accurately determining active subscriber metrics on an ongoing basis and communicating this data to rewards oracles. 
