@@ -31,6 +31,16 @@ We hope to circulate this HIP and additional rationale within the Helium Discord
 - Provide representative examples that show how this proposal would be commonly used.
 - Corner cases should be dissected by example.
 
+
+
+- 1.1x, 1.2x, 1.3x etc boosts for areas with active subscribers (per capita, per 100k people etc)
+- updates monthly? bi-monthly?
+- disincentives deployments in middle of nowhere, incentives people to onboard subscribers to achieve boost
+- Based on larger res4-6 hexes
+
+
+
+
 ## Drawbacks
 
 We presume a moderately high level of complexity involved in accurately determining active subscriber metrics on an ongoing basis and communicating this data to rewards oracles. 
