@@ -8,9 +8,9 @@
 - Vote Requirements: veMOBILE
 
 ## Summary
-
+<!-- 
 One paragraph explanation of the proposal.
-
+-->
 <!-- Read the content requests in all sections before starting to write any section. -->
 
 ## Motivation
@@ -26,67 +26,62 @@ This proposal affects 2 groups of stakeholders:
 
 We hope to circulate this HIP and additional rationale within the Helium Discord server. 
 
-
 ## Detailed Explanation
-
+<!-- 
 - Introduce and explain new concepts.
 - It should be reasonably clear how the proposal would be implemented.
 - Provide representative examples that show how this proposal would be commonly used.
 - Corner cases should be dissected by example.
-
-
-
+-->
 - 1.1x, 1.2x, 1.3x etc boosts for areas with active subscribers (per capita, per 100k people etc)
 - updates monthly? bi-monthly?
 - disincentives deployments in middle of nowhere, incentives people to onboard subscribers to achieve boost
 - Based on larger res4-6 hexes
 
-
-
-
 ## Drawbacks
-
 We presume a moderately high level of complexity involved in accurately determining active subscriber metrics on an ongoing basis and communicating this data to rewards oracles. 
 
 ## Rationale and Alternatives
-
+<!-- 
 This is your chance to discuss your proposal in the context of the whole design space. This is
 probably the most important section!
 
 - Why is this design the best in the space of possible designs?
 - What other designs have been considered and what is the rationale for not choosing them?
 - What is the impact of not doing this?
+-->
 
 ## Unresolved Questions
-
+<!-- 
 - What parts of the design do you expect to resolve through the HIP process before this gets merged?
 - What parts of the design do you expect to resolve through the implementation of this feature?
 - What related issues do you consider out of scope for this HIP that could be addressed in the
   future independently of the solution that comes out of this HIP?
 - Are there dependencies, milestones, or dates that need to be met for this HIP to succeed?
+-->
+- What will the legaility and process for Nova Labs discovery mapping data acquisition look like?
 
 ## Deployment Impact
-
 Describe how this design will be deployed and any potential impact it may have on current users of
 this project.
-
+<!-- 
 - How will current users be impacted?
 - How will existing documentation/knowledge base need to be supported? Any content to change at
   <http://docs.helium.com>?
 - Is this backwards compatible? Can this HIP be undone?
-  - If not, what is the procedure to migrate?
-
+  - If not, what is the procedure to migrate? 
+-->
 - Current Helium Mobile subscribers should notice a gradual increase in coverage in places where there is a demand for Helium Mobile Hotspots
 - Existing PoC and Rewards documentation will need to be revised to include a detailed description of the system functionality, along with the modeled coverage explorer. (is this NOVA?)
 - This HIP can easily be nullified via a future stakeholder vote if success metrics prove an ineffective implimentation. 
 
 ## Success Metrics
-
+<!-- 
 What metrics can be used to measure the success of this design? Are any new ETL reports needed to
 measure the success?
 - What should we measure to prove a performance increase?
 - What should we measure to prove an improvement in stability?
 - What should we measure to prove a reduction in complexity?
 - What should we measure to prove an acceptance of this by its users?
-
+-->
 Successful implementation of this HIP will result in a greater amount of Helium Mobile cellular traffic being utilized on Helium CBRS and WiFi hotspots while reducing incentives to deploy ineffective coverage in areas with few or no current subscribers. These metrics are easily detemined by measuing the percentage of Helium Mobile cellular traffic being served by Helium radios as opposed to T-Mobile backhaul. Additionally, a successful implementation of this proposal should result in a reduction of radios providing coverage in areas with no current subscribers. 
