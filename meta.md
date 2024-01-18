@@ -8,9 +8,7 @@
 - Vote Requirements: veMOBILE
 
 ## Summary
-<!-- 
-One paragraph explanation of the proposal.
--->
+<!-- One paragraph explanation of the proposal. -->
 <!-- Read the content requests in all sections before starting to write any section. -->
 
 ## Motivation
@@ -45,7 +43,6 @@ We presume a moderately high level of complexity involved in accurately determin
 <!-- 
 This is your chance to discuss your proposal in the context of the whole design space. This is
 probably the most important section!
-
 - Why is this design the best in the space of possible designs?
 - What other designs have been considered and what is the rationale for not choosing them?
 - What is the impact of not doing this?
@@ -59,7 +56,8 @@ probably the most important section!
   future independently of the solution that comes out of this HIP?
 - Are there dependencies, milestones, or dates that need to be met for this HIP to succeed?
 -->
-- What will the legaility and process for Nova Labs discovery mapping data acquisition look like?
+- _What will the legaility and process for Nova Labs discovery mapping data acquisition look like?_
+- _Will additional measures need to be implimented to address spoofing concerns?_
 
 ## Deployment Impact
 Describe how this design will be deployed and any potential impact it may have on current users of
