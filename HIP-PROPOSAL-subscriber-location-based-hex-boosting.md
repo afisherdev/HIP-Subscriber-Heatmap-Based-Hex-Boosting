@@ -1,6 +1,7 @@
 # HIP Template (Give it a title here but do not allocate a number, maintainer will allocate a number)
 
-- Author(s): afisherdev meta-light 
+- Author(s): [Andrew Fisher](https://github.com/afisherdev) & [Niko LeMieux](https://github.com/EasyNiko) & [Russell From](https://github.com/) [Nick Carpetino](https://github.com/meta-light) &
+- Contributor: [Josh Heller](https://github.com/jhella) & 
 - Start Date: 2024-01-17
 - Category: technical, economic
 - Original HIP PR: <!-- leave this empty; maintainer will fill in ID of this pull request -->
@@ -14,11 +15,10 @@ One paragraph explanation of the proposal.
 <!-- Read the content requests in all sections before starting to write any section. -->
 
 ## Motivation
+The Helium community has been involved in an ongoing discourse surrounding HIP 101 and 103, which generally aim to disincentivize deployments that aim to abuse the Helium Mobile subDAO Proof-of-Coverage oracle system. Our implementation aims to solve this gaming vector through a PoC boosting system based on Helium Mobile subscriber distribution derived from Nova Labs Discovery Mapping heatmap data in order to properly incentivise deployers and operators of CBRS and WiFi hotspots to supply coverage in areas with concentrations of active subscribers. We expect this will result in higher quality coverage while disincentivisng gaming on the Mobile network. 
 
-- Why are we doing this?
-- What use cases does it support?
-- What problems does it solve?
-- What is the expected outcome?
+The goal of the Helium Mobile network should be the propagation of high-quality coverage zones where they are needed (supply) in order to provide a service coverage to subscribers that have indicated through usage or through sign-ups that they desire service in that area (demand). Changes that call for the implementation over laborious metrics to make even a basic action for the provision of either supply or demand only introduce friction into the system and these collective frictions limit the velocity of supply and demand growth of the entire network. Supply should be served by both strategic coverage deployments (CBRS) that provide large coverage zones, as well as tactical coverage deployments (WiFi) that fill in the last-mile gaps in strategic coverage. Demand should be strategically observed through subscriber counts and overall network traffic, and tactically observed by heatmaps comprised of data analysis of user movement and local network resource usage. 
+
 
 ## Stakeholders
 
