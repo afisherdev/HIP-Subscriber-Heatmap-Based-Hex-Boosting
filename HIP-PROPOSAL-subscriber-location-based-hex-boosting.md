@@ -1,7 +1,7 @@
 # HIP Template (Give it a title here but do not allocate a number, maintainer will allocate a number)
 
-- Author(s): [Andrew Fisher](https://github.com/afisherdev) & [Niko LeMieux](https://github.com/EasyNiko) & [Russell From](https://github.com/) & [Nick Carpinito](https://github.com/meta-light)
-- Contributor: [Josh Heller](https://github.com/jhella)
+- Author(s): [Andrew Fisher](https://github.com/afisherdev) & [Niko LeMieux](https://github.com/EasyNiko) & [Russell From](https://github.com/)
+- Contributor: [Josh Heller](https://github.com/jhella) & [Nick Carpinito](https://github.com/meta-light)
 - Start Date: 2024-01-17
 - Category: technical, economic
 - Original HIP PR: <!-- leave this empty; maintainer will fill in ID of this pull request -->
